@@ -1,0 +1,46 @@
+Here is the context, Problem Definition, Requirements, and Strategic Framework for the Torob Design Contest. Use this to construct the complete UI design system and fully functional prototype.
+
+---
+
+### 1. PROBLEM STATEMENT & USER CONTEXT
+- **Platform:** Torob (Iran’s leading price comparison and product discovery marketplace).
+- **Core Challenge:** On auto spare parts searches (e.g., "دیسک صفحه ۲۰۶ تیپ ۵", "بلبرینگ پلوس ۴۰۵"), users rarely search for a specific brand/model—they are looking for the RIGHT compatible part from a TRUSTED seller.
+- **Flaws in Current Product-Centric PLP:**
+  - Torob's current Product Listing Page (PLP) merges sellers into a single product card, assuming full data structured by brand.
+  - In auto parts, data is noisy/incomplete (missing car compatibility metadata, inaccurate product merging, seller-provided inconsistent photos).
+  - Users care about fast local resolution, seller trustworthiness, and compatibility over pure brand aggregation.
+- **Conversion Goals (Primary Success Metrics):**
+  Increase user conversion actions:
+  1. Direct Online Purchase (خرید اینترنتی)
+  2. Phone Contact (تماس تلفنی)
+  3. Navigation/Directions (مسیریابی)
+  4. Messaging/Chat (پیام‌رسان)
+
+---
+
+### 2. CORE DECISION FACTORS & DATA CONSTRAINTS
+Your UI design must gracefully represent these key decision factors while catering to incomplete/imperfect data:
+- **Part Compatibility:** Vehicle fitment status (e.g., "مناسب برای پژو ۲۰۶ تیپ ۵").
+- **Seller Attributes:** Price, geographic distance (Online vs. Physical store / حضوری و آنلاین), seller rating/trustworthiness, installment availability (خرید قسطی), Torob guarantee (ضمانت ترب).
+- **Data Edge Cases:** Missing car fitment data, inconsistent real photos per seller vs. generic product images, approximate user location.
+
+---
+
+### 3. DESIGN REQUIREMENTS & PROTOTYPE SCOPE
+- **Platform/Format:** Mobile-First Experience (PLP & Search Results focus).
+- **Architecture Strategy:** Flexible paradigm (Hybrid Shop-Centric / Attribute-Centric PLP with adaptive filters for fitment, distance, and trust verification).
+- **Required Functional UI Components:**
+  1. **Smart Vehicle/Fitment Bar:** Quick selector or confirmation header (e.g., "خودروی شما: ۲۰۶ تیپ ۵").
+  2. **Adaptive PLP Listing Cards:** Showing real seller photos, physical distance/map trigger, clear trust badges (ضمانت ترب / فروشگاه حضوری), and price comparisons.
+  3. **Direct Action Triggers:** Quick buttons for Phone Call, Navigation, Chat, and Direct Buy without getting buried in complex detail pages.
+  4. **Incomplete Data Fallback UI:** Visual indicators when compatibility is unconfirmed or requires user confirmation.
+  5. **Filtering & Sorting Bar:** Quick filter chips for "فروشگاه‌های نزدیک" (Nearby Stores), "موجودی فوری" (In Stock), "ضمانت ترب" (Torob Guarantee), "خرید قسطی" (Installments).
+
+---
+
+### 4. TECHNICAL & VISUAL PREFERENCES
+- **Language & Direction:** Persian (RTL layout architecture).
+- **Brand Aesthetic:** Modern Persian E-commerce (Clean red/white/gray primary tones matching Torob's palette, crisp typography, high-contrast badges).
+- **Output Requirements:**
+  1. Complete Strategic UI Foundations (Colors, Typography, Spatial Tokens).
+  2. Complete Interactive Single-File Prototype (HTML5 + Tailwind CSS v3 + Lucide Icons RTL layout + Interactivity via Vanilla JS/Alpine.js).

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ترب قطعات",
+      "hasCanvas": false,
+      "bodyTextLen": 3216,
+      "bodyTextHash": "9291ab4fd631c14cbbbc3a0db19bf7ae954b96c2bd31e459a33dcec75d17198d",
+      "bodyTextPrefix": "نظام طراحی · لوازم یدکی ترب قطعات از شبکه کالامحور به پیشنهاد فر",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ترب قطعات",
+      "hasCanvas": false,
+      "bodyTextLen": 2740,
+      "bodyTextHash": "a04fd5d523c388723e1697d75c9dfc32ae67e5ba85279f4ee43b9629937d6466",
+      "bodyTextPrefix": "خودروی شما پژو ۲۰۶ تیپ ۵۱۳۸۹ · TU5 تغییر تهران، پونک موقعیت دقیق",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
